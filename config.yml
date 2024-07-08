@@ -1,0 +1,13 @@
+http:
+  enabled: true
+  port: 3002
+https:
+  enabled: false
+  port: 3443
+brands:
+  allowed:
+    - 65793
+app:
+  name: tokenizer
+  path:
+    prepend: "/run/secrets"
